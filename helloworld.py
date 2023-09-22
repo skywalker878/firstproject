@@ -11,6 +11,5 @@ for i in range(0,3):
     for k in range(0,3):
         print("|",end="")
     print()
-print("Done")
-
+print("Success")
 
