@@ -5,11 +5,12 @@ for i in range(0,4):
         print("*",end="")
     print()
 
-for i in range(0,5):
-    for j in range(0,i):
-        print(" ",end="")
-    for k in range(0,(4-i)*2 + 1):
-        print("*", end="")
+for i in range(0,3):
+    for j in range(0,3):
+        print(" ", end="")
+    for k in range(0,3):
+        print("|",end="")
     print()
-print("Done")
+
+
 
